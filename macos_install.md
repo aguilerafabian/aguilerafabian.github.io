@@ -1,4 +1,4 @@
-<h1>MacOS Install procedure</h1>
+# MacOS - Installation process
 
 ## Homebrew install
 ``` bash
@@ -43,7 +43,13 @@ brew install --cask wireguard-tools
 brew install --cask authy
 ```
 ``` bash
+brew install --cask spectacle
+```
+``` bash
 brew install --cask ledger-live
+```
+``` bash
+brew install --cask go2shell
 ```
 ``` bash
 brew install wget
@@ -51,7 +57,18 @@ brew install wget
 ``` bash
 brew install htop
 ```
-
+``` bash
+brew install tree
+```
+``` bash
+brew install bat
+```
+``` bash
+brew install speedtest-cli
+```
+``` bash
+brew install exa
+```
 > ##### Oh My ZSH
 >``` bash
 >/bin/bash -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"  
@@ -59,10 +76,16 @@ brew install htop
 >``` bash
 >exit
 >```
+``` bash
+brew install romkatv/powerlevel10k/powerlevel10k
+```
 
 ## Edicion de texto
 ``` bash
 brew install --cask sublime-text  
+```
+``` bash
+brew install neovim
 ```
 
 ## Internet browsing
@@ -121,7 +144,7 @@ brew install --cask vlc
 brew install --cask kindle
 ```
 
-## Instant messaging
+## Instant messaging / Social
 ``` bash
 brew install --cask whatsapp  
 ```
@@ -161,3 +184,5 @@ brew install --cask kindle
 # Faltan
 
 >GPG Keychain -> brew install --cask gpg-suite
+
+#macOS 
