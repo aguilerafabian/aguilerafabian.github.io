@@ -1,182 +1,182 @@
 # MacOS - Installation process
 
 ## Homebrew install
-``` bash
+```bash
 sudo xcode-select --install
 ```
-``` bash
+```bash
 sudo xcode-select --install
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"  
 ```
-``` bash
+```bash
 exit  
 ```
-``` bash
+```bash
 brew upgrade  
 ```
 
 ## Sistema
-``` bash
+```bash
 brew install --cask commander-one
 ```
-``` bash
+```bash
 brew install --cask double-commander
 ```
 > Dar permiso de ejecucion a terceros al ejecutar
-``` bash
+```bash
 brew install --cask raycast
 ```
-``` bash
+```bash
 brew install --cask iterm2  
 ```
-``` bash
+```bash
 brew install --cask clipy
 ```
-``` bash
+```bash
 brew install --cask ccleaner
 ```
 > Pide password de administrador al instalar
-``` bash
+```bash
 brew install --cask wireguard-tools
 ```
-``` bash
+```bash
 brew install --cask authy
 ```
-``` bash
+```bash
 brew install --cask spectacle
 ```
-``` bash
+```bash
 brew install --cask ledger-live
 ```
-``` bash
+```bash
 brew install --cask go2shell
 ```
-``` bash
+```bash
 brew install wget
 ```
-``` bash
+```bash
 brew install htop
 ```
-``` bash
+```bash
 brew install tree
 ```
-``` bash
+```bash
 brew install bat
 ```
-``` bash
+```bash
 brew install speedtest-cli
 ```
-``` bash
+```bash
 brew install exa
 ```
 > ##### Oh My ZSH
->``` bash
+>```bash
 >/bin/bash -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"  
 >```
->``` bash
+>```bash
 >exit
 >```
-``` bash
+```bash
 brew install romkatv/powerlevel10k/powerlevel10k
 ```
 
 ## Edicion de texto
-``` bash
+```bash
 brew install --cask sublime-text  
 ```
-``` bash
+```bash
 brew install neovim
 ```
 
 ## Internet browsing
-``` bash
+```bash
 brew install --cask google-chrome
 ```
-``` bash
+```bash
 brew install --cask brave-browser  
 ```
-``` bash
+```bash
 brew install --cask firefox
 ```
 
 ## Desarrollo
-``` bash
+```bash
 brew install jq
 ```
-``` bash
+```bash
 brew install --cask postman  
 ```
-``` bash
+```bash
 brew install --cask rowanj-gitx
 ```
-``` bash
+```bash
 brew install --cask diffmerge
 ```
 > Dar permiso de ejecucion a terceros al ejecutar
 
 >##### Sdkman
->``` bash
+>```bash
 >curl -s "https://get.sdkman.io/" | bash
 >```
->``` bash
+>```bash
 >exit
 >```
 
 >##### Visual Studio Code
->``` bash
+>```bash
 >sudo xcodebuild -license accept  
 >```
->``` bash
+>```bash
 >brew install --cask visual-studio-code  
 >```
 
 ## Multimedia
-``` bash
+```bash
 brew install --cask spotify  
 ```
-``` bash
+```bash
 brew install --cask xnviewmp  
 ```
-``` bash
+```bash
 brew install --cask vlc
 ```
-``` bash
+```bash
 brew install --cask kindle
 ```
 
 ## Instant messaging / Social
-``` bash
+```bash
 brew install --cask whatsapp  
 ```
-``` bash
+```bash
 brew install --cask telegram
 ```
-``` bash
+```bash
 brew install --cask discord
 ```
 
 ## Notas
-``` bash
+```bash
 brew install --cask evernote
 ```
-``` bash
+```bash
 brew install --cask obsidian
 ```
 
 ## Cloud storage
-``` bash
+```bash
 brew install --cask dropbox
 ```
-``` bash
+```bash
 brew install --cask onedrive
 ```
 > Pide password de administrador al instalar
-``` bash
+```bash
 brew install --cask megasync
 ```
 
 ## Reading
-``` bash
+```bash
 brew install --cask kindle
 ```
 
