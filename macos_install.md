@@ -1,81 +1,91 @@
 # MacOS - Installation process
 
-## Homebrew install
+Note:
+- Execute in order
+- Some apps will require admin priviligies
+
+### Xcode
+- Install Xcode from App Store
+
+- Install Xcode command line tools
+    ``` bash
+    sudo xcode-select --install
+    ```
+
+### Homebrew
 ``` bash
-sudo xcode-select --install
+. /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+- Add brew to PATH
+    ``` shell
+    (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> $HOME/.zprofile
+    ```
+
+``` bash
+exit
 ```
 ``` bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"  
-```
-``` bash
-exit  
-```
-``` bash
-brew upgrade  
+brew update
+brew upgrade
 ```
 
-## Sistema
+## System
 ``` bash
-brew install --cask commander-one
+. brew install --cask commander-one
 ```
 ``` bash
-brew install --cask double-commander
-```
-> Dar permiso de ejecucion a terceros al ejecutar
-``` bash
-brew install --cask raycast
+. brew install --cask raycast
 ```
 ``` bash
-brew install --cask iterm2  
+. brew install --cask iterm2
 ```
 ``` bash
-brew install --cask clipy
+. brew install --cask clipy
 ```
 ``` bash
 brew install --cask ccleaner
 ```
 > Pide password de administrador al instalar
 ``` bash
-brew install --cask alt-tab
-```
-> Pide password de administrador al instalar
-``` bash
-brew install --cask wireguard-tools
+. brew install --cask alt-tab
 ```
 ``` bash
-brew install --cask authy
+. brew install wireguard-tools
 ```
 ``` bash
-brew install --cask spectacle
+. brew install --cask authy
+```
+``` bash
+. brew install --cask rectangle
 ```
 ``` bash
 brew install --cask ledger-live
 ```
 ``` bash
-brew install --cask go2shell
+. brew install --cask go2shell
 ```
 ``` bash
-brew install wget
+. brew install --cask balenaetcher
 ```
 ``` bash
-brew install htop
+. brew install wget
 ```
 ``` bash
-brew install tree
+. brew install htop
 ```
 ``` bash
-brew install bat
+. brew install tree
 ```
 ``` bash
-brew install speedtest-cli
+. brew install bat
 ```
 ``` bash
-brew install exa
+. brew install speedtest-cli
 ```
 > ##### Oh My ZSH
->``` bash
->/bin/bash -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"  
->```
+``` bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
 >``` bash
 >exit
 >```
@@ -83,31 +93,25 @@ brew install exa
 brew install romkatv/powerlevel10k/powerlevel10k
 ```
 
-## Edicion de texto
+## Text editing
 ``` bash
-brew install --cask sublime-text  
+. brew install --cask sublime-text
 ```
 ``` bash
-brew install neovim
+. brew install neovim
 ```
 
 ## Internet browsing
 ``` bash
-brew install --cask google-chrome
-```
-``` bash
-brew install --cask brave-browser  
-```
-``` bash
-brew install --cask firefox
+. brew install --cask brave-browser
 ```
 
-## Desarrollo
+## Development
 ``` bash
-brew install jq
+. brew install jq
 ```
 ``` bash
-brew install --cask postman  
+. brew install --cask postman
 ```
 ``` bash
 brew install --cask rowanj-gitx
@@ -127,10 +131,7 @@ brew install --cask diffmerge
 
 >##### Visual Studio Code
 >``` bash
->sudo xcodebuild -license accept  
->```
->``` bash
->brew install --cask visual-studio-code  
+>brew install --cask visual-studio-code
 >```
 
 >##### GVM
@@ -164,52 +165,42 @@ brew install tig
 
 ## Multimedia
 ``` bash
-brew install --cask spotify  
+. brew install --cask spotify
 ```
 ``` bash
-brew install --cask xnviewmp  
+. brew install --cask xnviewmp
 ```
 ``` bash
-brew install --cask vlc
+. brew install --cask vlc
 ```
 ``` bash
-brew install --cask kindle
+. brew install --cask kindle
 ```
 
-## Instant messaging / Social
+## Instant Messaging / Social
 ``` bash
-brew install --cask whatsapp  
+. brew install --cask whatsapp  
 ```
 ``` bash
-brew install --cask telegram
+. brew install --cask telegram
 ```
 ``` bash
-brew install --cask discord
+. brew install --cask discord
 ```
 
 ## Notas
 ``` bash
-brew install --cask evernote
-```
-``` bash
-brew install --cask obsidian
+. brew install --cask obsidian
 ```
 
 ## Cloud storage
 ``` bash
-brew install --cask dropbox
-```
-``` bash
-brew install --cask onedrive
-```
-> Pide password de administrador al instalar
-``` bash
-brew install --cask megasync
+. brew install --cask onedrive
 ```
 
 ## Reading
 ``` bash
-brew install --cask kindle
+. brew install --cask kindle
 ```
 
 # Faltan
