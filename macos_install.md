@@ -150,10 +150,6 @@ brew install --cask postman
 brew install --cask rowanj-gitx
 ```
 
-```bash
-brew install --cask diffmerge
-```
-
 > Dar permiso de ejecucion a terceros al ejecutar
 
 > ##### Sdkman
